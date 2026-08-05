@@ -8,7 +8,7 @@ The project was to identify sales performance trends and build an interactive da
 Records: 1,001
 Columns: 14
 
-### Fields
+## Fields
 Product ID
 Sales Date
 Sales Representative
