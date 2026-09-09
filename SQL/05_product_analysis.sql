@@ -96,16 +96,3 @@ GROUP BY product_category
 ORDER BY sales_percentage DESC;
 
 
--- 9. Data Validation: Sales Amount vs Expected Sales
--- Business Question:
--- Is Sales_Amount consistent with Quantity_Sold × Unit_Price
--- after applying the recorded discount?
-
-SELECT product_id,
-       sales_amount,
-       quantity_sold,
-       unit_price,
-       discount,
-       quantity_sold * unit_price * (1 - discount) AS expected_sales
-FROM sales_data
-LIMIT 10;
