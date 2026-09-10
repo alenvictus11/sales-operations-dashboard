@@ -58,3 +58,4 @@ FROM sales_data
 GROUP BY customer_type
 ORDER BY average_quantity_per_transaction DESC;
 
+
