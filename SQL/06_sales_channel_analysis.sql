@@ -20,7 +20,7 @@ ORDER BY total_sales DESC;
 -- Which sales channel sells the most units?
 
 SELECT sales_channel,
-       SUM(quantity) AS total_quantity_sold
+       SUM(quantity_sold) AS total_quantity_sold
 FROM sales_data
 GROUP BY sales_channel
 ORDER BY total_quantity_sold DESC;
@@ -53,7 +53,7 @@ ORDER BY total_transactions DESC;
 -- Which sales channel has the highest average quantity sold per transaction?
 
 SELECT sales_channel,
-       AVG(quantity) AS average_quantity_per_transaction
+       AVG(quantity_sold) AS average_quantity_per_transaction
 FROM sales_data
 GROUP BY sales_channel
 ORDER BY average_quantity_per_transaction DESC;
