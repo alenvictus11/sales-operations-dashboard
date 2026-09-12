@@ -8,7 +8,7 @@
 -- Business Question:
 -- How do total sales change over time?
 
-SELECT DATE_TRUNC('month', sale_date) AS sales_month,
+SELECT DATE_TRUNC('month', sales_date) AS sales_month,
        SUM(sales_amount) AS total_sales
 FROM sales_data
 GROUP BY sales_month
@@ -19,7 +19,7 @@ ORDER BY sales_month;
 -- Business Question:
 -- How many transactions occurred each month?
 
-SELECT DATE_TRUNC('month', sale_date) AS sales_month,
+SELECT DATE_TRUNC('month', sales_date) AS sales_month,
        COUNT(*) AS total_transactions
 FROM sales_data
 GROUP BY sales_month
@@ -30,7 +30,7 @@ ORDER BY sales_month;
 -- Business Question:
 -- What is the average transaction value each month?
 
-SELECT DATE_TRUNC('month', sale_date) AS sales_month,
+SELECT DATE_TRUNC('month', sales_date) AS sales_month,
        AVG(sales_amount) AS average_sale
 FROM sales_data
 GROUP BY sales_month
@@ -41,7 +41,7 @@ ORDER BY sales_month;
 -- Business Question:
 -- How many units were sold each month?
 
-SELECT DATE_TRUNC('month', sale_date) AS sales_month,
+SELECT DATE_TRUNC('month', sales_date) AS sales_month,
        SUM(quantity_sold) AS total_quantity_sold
 FROM sales_data
 GROUP BY sales_month
@@ -52,10 +52,10 @@ ORDER BY sales_month;
 -- Business Question:
 -- Which date generated the highest total sales?
 
-SELECT sale_date,
+SELECT sales_date,
        SUM(sales_amount) AS total_sales
 FROM sales_data
-GROUP BY sale_date
+GROUP BY sales_date
 ORDER BY total_sales DESC;
 
 
@@ -63,7 +63,7 @@ ORDER BY total_sales DESC;
 -- Business Question:
 -- Which month generated the highest total sales?
 
-SELECT DATE_TRUNC('month', sale_date) AS sales_month,
+SELECT DATE_TRUNC('month', sales_date) AS sales_month,
        SUM(sales_amount) AS total_sales
 FROM sales_data
 GROUP BY sales_month
