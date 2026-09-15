@@ -40,19 +40,19 @@ Data Cleaning
 Github
 
 ## Business Questions
-Which region generated the highest sales?
-Which product category generated the highest revenue?
-Which sales representative achieved the highest sales?
-Which payment method was used frequently?
-Which sales channel generated the highest sales?
+- Which region generated the highest sales?
+- Which product category generated the highest revenue?
+- Which sales representative achieved the highest sales?
+- Which payment method was used frequently?
+- Which sales channel generated the highest sales?
 
 ## SQL Analysis Questions
-Which product categories generated the highest total sales and quantity sold?
-How do Online and Retail sales channels compare?
-How do New and Returning customers differ in sales and purchasing behavior?
-Which payment methods generated the highest sales and transactions volume?
-How do discount levels relate to sales performance?
-How does sales performance vary across months and dates?
+- Which product categories generated the highest total sales and quantity sold?
+- How do Online and Retail sales channels compare?
+- How do New and Returning customers differ in sales and purchasing behavior?
+- Which payment methods generated the highest sales and transactions volume?
+- How do discount levels relate to sales performance?
+- How does sales performance vary across months and dates?
 
 ## Dashboard Preview
 ![Sales Operations Dashboard](screenshots/dashboard.png)
@@ -60,25 +60,25 @@ This interactive dashboard enables users to analyze sales performance by region,
 
 ## Key Insights
 
-**North** generated the highest total sales.
-**Clothing** led product categories in total sales and transaction volume.
-**Retail** slightly outperformed Online in total sales and transaction volume.
-**Credit Card** generated the highest total sales and average transaction value.
-**David** achieved the highest sales among representatives.
-**Returning customers** generated slightly higher total sales and average transaction values, while **New customers** generated more transactions and units sold.
-**January 2023** recorded the highest total sales, transaction count, and quantity sold.
-**Discount** levels showed no clear linear relationship with sales performance.
-**January 2024** included only three transactions and was treated as an incomplete period.
+- **North** generated the highest total sales.
+- **Clothing** led product categories in total sales and transaction volume.
+- **Retail** slightly outperformed Online in total sales and transaction volume.
+- **Credit Card** generated the highest total sales and average transaction value.
+- **David** achieved the highest sales among representatives.
+- **Returning customers** generated slightly higher total sales and average transaction values, while **New customers** generated more transactions and units sold.
+- **January 2023** recorded the highest total sales, transaction count, and quantity sold.
+- **Discount** levels showed no clear linear relationship with sales performance.
+- **January 2024** included only three transactions and was treated as an incomplete period.
 
 ## SQL Analysis
 
 The PostgreSQL analysis is organized into the following files:
-[sql/05_product_category_analysis.sql](sql/05_product_category_analysis.sql) - Product Category Performance
-[sql/06_sales_channel_analysis.sql](sql/06_sales_channel_analysis.sql) - Sales Channel Performance
-[sql/07_customer_type_analysis.sql](sql/07_customer_type_analysis.sql) - New vs Returning customers
-[sql/08_payment/_method_analysis.sql](sql/08_payment/_method_analysis.sql) - Payment method performance
-[sql/09_discount_analysis.sql](sql/09_discount_analysis.sql) - Discount and sales patterns
-[sql/10_sales_performance_analysis.sql](sql/10_sales_performance_analysis.sql) - Monthly and daily sales performance
+- [sql/05_product_category_analysis.sql](sql/05_product_category_analysis.sql) - Product Category Performance
+- [sql/06_sales_channel_analysis.sql](sql/06_sales_channel_analysis.sql) - Sales Channel Performance
+- [sql/07_customer_type_analysis.sql](sql/07_customer_type_analysis.sql) - New vs Returning customers
+- [sql/08_payment/_method_analysis.sql](sql/08_payment/_method_analysis.sql) - Payment method performance
+- [sql/09_discount_analysis.sql](sql/09_discount_analysis.sql) - Discount and sales patterns
+- [sql/10_sales_performance_analysis.sql](sql/10_sales_performance_analysis.sql) - Monthly and daily sales performance
 
 ## Skills Demonstrated
 
@@ -106,7 +106,7 @@ Data Quality Awareness
 Evidence-based Interpretation
 
 ## Future Enhancement
-Automate data cleaning and analysis with Python.
-Add Python-based visualization
-Explore CRM integration with Hubspot or Zoho.
-Develop automated sales operations workflows.
+- Automate data cleaning and analysis with Python.
+- Add Python-based visualization
+- Explore CRM integration with Hubspot or Zoho.
+- Develop automated sales operations workflows.
