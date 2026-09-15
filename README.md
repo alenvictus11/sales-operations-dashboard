@@ -9,8 +9,8 @@ The project was completed in two stages:
 2. **Postgresql/SQL** - Structured analysis of product categories, sales channels, customer types, payment methods, discounts, and sales performance over time.
 
 ## Dataset
-Records: 1,001
-Columns: 14
+- Records: 1,001
+- Columns: 14
 
 ## Fields
 Product ID,
@@ -29,15 +29,15 @@ Sales Channel,
 Region and Sales Representative.
 
 ## Tools Used
-Microsoft Excel
-PostgreSQL
-SQL
-Pivot Tables
-Pivot Charts
-Interactive Dashboards
-Slicers
-Data Cleaning
-Github
+- Microsoft Excel
+- PostgreSQL
+- SQL
+- Pivot Tables
+- Pivot Charts
+- Interactive Dashboards
+- Slicers
+- Data Cleaning
+- Github
 
 ## Business Questions
 - Which region generated the highest sales?
