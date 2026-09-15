@@ -73,10 +73,10 @@ This interactive dashboard enables users to analyze sales performance by region,
 ## SQL Analysis
 
 The PostgreSQL analysis is organized into the following files:
-- [sql/05_product_category_analysis.sql](SQL/05_product_category_analysis.sql) - Product Category Performance
+- [sql/05_product_analysis.sql](SQL/05_product_category_analysis.sql) - Product Category Performance
 - [sql/06_sales_channel_analysis.sql](SQL/06_sales_channel_analysis.sql) - Sales Channel Performance
 - [sql/07_customer_type_analysis.sql](SQL/07_customer_type_analysis.sql) - New vs Returning customers
-- [sql/08_payment/_method_analysis.sql](SQL/08_payment/_method_analysis.sql) - Payment method performance
+- [sql/08_payment_method_analysis.sql](SQL/08_payment/_method_analysis.sql) - Payment method performance
 - [sql/09_discount_analysis.sql](SQL/09_discount_analysis.sql) - Discount and sales patterns
 - [sql/10_sales_performance_analysis.sql](SQL/10_sales_performance_analysis.sql) - Monthly and daily sales performance
 
