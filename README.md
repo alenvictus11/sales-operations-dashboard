@@ -13,20 +13,20 @@ Records: 1,001
 Columns: 14
 
 ## Fields
-Product ID
-Sales Date
-Sales Representative
-Region
-Sales Amount
-Quantity Sold
-Product Category
-Unit cost
-Unit price
-Customer Type
-Discount
-Payment Method
-Sales Channel
-Region and Sales Representative
+Product ID,
+Sales Date,
+Sales Representative,
+Region,
+Sales Amount,
+Quantity Sold,
+Product Category,
+Unit cost,
+Unit price,
+Customer Type,
+Discount,
+Payment Method,
+Sales Channel,
+Region and Sales Representative.
 
 ## Tools Used
 Microsoft Excel
@@ -83,27 +83,27 @@ The PostgreSQL analysis is organized into the following files:
 ## Skills Demonstrated
 
 **Excel**
-Data Cleaning		
-Data Summarization		
-Pivot Tables		
-Pivot Charts		
-Dashboard Design		
-Data Visualization		
-Slicers
+- Data Cleaning		
+- Data Summarization		
+- Pivot Tables		
+- Pivot Charts		
+- Dashboard Design		
+- Data Visualization		
+- Slicers
 
 **SQL/PostgreSQL**
-Data Aggregation
-Filtering and Sorting
-Grouping
-Data-Based Analysis
-Subqueries
+- Data Aggregation
+- Filtering and Sorting
+- Grouping
+- Data-Based Analysis
+- Subqueries
 
 **Analytical Skills**
-Business Insight Generation
-KPI Comparison
-Pattern and Exception Identification
-Data Quality Awareness
-Evidence-based Interpretation
+- Business Insight Generation
+- KPI Comparison
+- Pattern and Exception Identification
+- Data Quality Awareness
+- Evidence-based Interpretation
 
 ## Future Enhancement
 - Automate data cleaning and analysis with Python.
